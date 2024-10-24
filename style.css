@@ -1,10 +1,10 @@
 body{
-    background-color: rgb(100, 0, 47);
+    background-color: rgba(248, 21, 127, 0.233);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 footer{
     background-color: deeppink;
-    color: blueviolet;
+    color: rgb(226, 43, 150);
     position: fixed;
     bottom: 0;
     width: 100%
@@ -18,5 +18,9 @@ footer p {
     display: flex;
 }
  .cartao{
-    margin: 1rem 1rem
+    margin: 1rem 1rem;
+    background-color: lightpink;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33%-6rem);
 }
